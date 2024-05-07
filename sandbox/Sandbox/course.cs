@@ -1,7 +1,12 @@
+using System.ComponentModel.DataAnnotations;
+
 class Course
 {
-    string courseCode;
-    string courseName;
-    int creditHours;
-    string color;
+    public string _courseCode;
+    public string _courseName;
+    public int _creditHours;
+    public string _color;
+    public void Display() {
+        Console.WriteLine($"{_courseCode} {_courseName} {_creditHours} {_color}");
+    }
 }
