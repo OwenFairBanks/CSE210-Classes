@@ -1,4 +1,4 @@
-public class TimedItems
+public class TimedItems     //Every timed themed (except breathing) counter used in every activity
 {
     private int _seconds;
     private List<string> _animation;
