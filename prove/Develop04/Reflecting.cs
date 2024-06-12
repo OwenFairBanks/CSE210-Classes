@@ -1,4 +1,4 @@
-public class Reflecting : TimedItems
+public class Reflecting : TimedItems     //Reflecting Activity
 {
     private List<string> _rQuestions;
     private List<string> _reflections;
