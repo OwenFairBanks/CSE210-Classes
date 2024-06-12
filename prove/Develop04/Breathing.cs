@@ -1,4 +1,4 @@
-public class Breathing : TimedItems
+public class Breathing : TimedItems     //Breathing Activity
 {
     private int _breatheIN;
     private int _breatheOUT;
