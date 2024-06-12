@@ -1,6 +1,6 @@
 using System;
 using System.Diagnostics;
-class Program
+class Program     //Main Program: Mindfulness
 {
     static void Main(string[] args)
     {
