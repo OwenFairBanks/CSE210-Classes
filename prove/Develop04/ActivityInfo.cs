@@ -1,6 +1,6 @@
 using System.ComponentModel.Design;
 using System.Security.Cryptography.X509Certificates;
-public class ActivityInfomation : TimedItems
+public class ActivityInfomation : TimedItems     //Activity Name, Description, and Summary
 {
     private string _breathingInfo;
     private string _breathingName;
