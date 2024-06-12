@@ -3,7 +3,6 @@ public class Reflecting : TimedItems
     private List<string> _rQuestions;
     private List<string> _reflections;
 
-
     public Reflecting(int seconds) : base (seconds)
     {
         _rQuestions = ["stood up for someone else.","did something really difficult.", 
@@ -60,5 +59,4 @@ public class Reflecting : TimedItems
         }
         return "";
     }
-
 }

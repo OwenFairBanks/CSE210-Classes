@@ -2,7 +2,6 @@ public class Listing : TimedItems
 {
     private List<string> _lQuestions;
 
-
     public Listing(int seconds) : base (seconds)
     {
         _lQuestions = ["Who are people you appreciate?","What are personal strengths of yours?",
@@ -18,7 +17,6 @@ public class Listing : TimedItems
         _lQuestions.RemoveAt(r1);
         return question;
     }
-
     public string GetListingActivity(int seconds)
     {
         string listing_question = GetListingQuestion();
@@ -44,5 +42,4 @@ public class Listing : TimedItems
         }
         return "";
     }
-
 }

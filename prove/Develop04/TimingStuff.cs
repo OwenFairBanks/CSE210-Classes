@@ -8,7 +8,6 @@ public class TimedItems
         _seconds = seconds;
         _animation = ["/","-","\\","|"];
     }
-
     public DateTime TimeLimit(int seconds)
     {
         DateTime startTime = DateTime.Now;
@@ -37,14 +36,12 @@ public class TimedItems
     public string CountdownAnimation()
     {
         Console.Write("You may begin in: ");
-        for (int i = 5; i > 0; i-- )
+        for (int i = 5; i > 0; i--)
         {
             Console.Write(i);
-            // Console.Write(i);
             Thread.Sleep(1000);
             Console.Write("\b \b");
         }
         return "";
     }
-
 }
